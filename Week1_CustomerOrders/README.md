@@ -9,6 +9,6 @@ This folder contains SQL queries focused on filtering, sorting, and limiting res
 
 ### Example Tasks
 - Top 2 biggest orders
-- Most recent orders
+- Most recent orders by Order_Date
 - Filtering by customer
 
