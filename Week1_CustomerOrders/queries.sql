@@ -10,4 +10,10 @@ FROM Orders
 ORDER BY Order_Date DESC
 LIMIT 2;
 
+-- Drill 3: Show all orders placed by customer C001
+SELECT Order_ID, Order_Date, Amount
+FROM Orders
+WHERE Customer_ID = 'C001';
+
+
 
