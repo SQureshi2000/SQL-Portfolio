@@ -16,10 +16,9 @@ FROM Orders
 WHERE Customer_ID = 'C001';
 
 -- Drill 4: Show the biggest order placed by customer C001
-SELECT Order_ID, Order_Date, Amount
+SELECT Order_ID, Amount
 FROM Orders
 WHERE Customer_ID = 'C001'
 ORDER BY Amount DESC
 LIMIT 1;
-
 
