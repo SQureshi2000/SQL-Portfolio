@@ -1,3 +1,4 @@
+
 -- Drill 1: Top 2 biggest orders by amount
 SELECT Order_ID, Amount 
 FROM Orders
@@ -15,5 +16,11 @@ SELECT Order_ID, Order_Date, Amount
 FROM Orders
 WHERE Customer_ID = 'C001';
 
+-- Drill 4: Show the biggest order placed by customer C001
+SELECT Order_ID, Order_Date, Amount
+FROM Orders
+WHERE Customer_ID = 'C001'
+ORDER BY Amount DESC
+LIMIT 1;
 
 
